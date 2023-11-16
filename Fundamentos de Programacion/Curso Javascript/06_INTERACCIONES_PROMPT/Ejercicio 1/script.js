@@ -5,7 +5,7 @@ function mayorEdad(){
     
     if(edad >= 18){
         alert("Eres mayor de edad")
-    } else {
+    }  else {
         alert("Es menor de edad")
     }
 }

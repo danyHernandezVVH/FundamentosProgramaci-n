@@ -1,8 +1,10 @@
-let userName = "kmorales";
-let password = "123456";
-if (userName === "kmorales" && password === "123456"){
-    console.log("Acceso concedido");
-} else {
-    console.log("Acceso denegado");
-
+function login(){
+    let userName = prompt("Por favor ingrese nombre de usuario: ");
+    let password = prompt("Por favor ingrese contraseña: ");
+    if (userName === "tespinoza" && password === "123456"){
+        alert("Acceso concedido");
+    } else {
+        alert("Acceso denegado");
+    
+    }
 }
