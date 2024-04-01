@@ -9,5 +9,3 @@ function medirTemperatura(){
             alert("Hace calor: " + temp + "ºC");
         }
 }
-
-
